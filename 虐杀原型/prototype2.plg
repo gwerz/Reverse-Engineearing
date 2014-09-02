@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: prototype2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/resource.res" /d "NDEBUG" "D:\Users\Administrator\Desktop\new\other\resource.rc"" 
+Creating temporary file "D:\Users\ADMINI~1\AppData\Local\Temp\RSP82E9.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/prototype2.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Users\Administrator\Desktop\new\other\prototype2.cpp"
+]
+Creating command line "cl.exe @D:\Users\ADMINI~1\AppData\Local\Temp\RSP82E9.tmp" 
+Creating temporary file "D:\Users\ADMINI~1\AppData\Local\Temp\RSP82EA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/prototype2.pdb" /machine:I386 /out:"Release/prototype2.exe" 
+.\Release\prototype2.obj
+.\Release\resource.res
+]
+Creating command line "link.exe @D:\Users\ADMINI~1\AppData\Local\Temp\RSP82EA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+prototype2.cpp
+D:\Users\Administrator\Desktop\new\other\prototype2.cpp(27) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+D:\Users\Administrator\Desktop\new\other\prototype2.cpp(27) : warning C4309: 'initializing' : truncation of constant value
+Linking...
+
+
+
+<h3>Results</h3>
+prototype2.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: prototype2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/prototype.res" /d "_DEBUG" "D:\Users\Administrator\Desktop\new\other\resource.rc"" 
+Creating temporary file "D:\Users\ADMINI~1\AppData\Local\Temp\RSP90E0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/prototype2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\Users\Administrator\Desktop\new\other\prototype2.cpp"
+]
+Creating command line "cl.exe @D:\Users\ADMINI~1\AppData\Local\Temp\RSP90E0.tmp" 
+Creating temporary file "D:\Users\ADMINI~1\AppData\Local\Temp\RSP90E1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/prototype2.pdb" /debug /machine:I386 /out:"Debug/prototype2.exe" /pdbtype:sept 
+.\Debug\prototype2.obj
+.\Debug\prototype.res
+]
+Creating command line "link.exe @D:\Users\ADMINI~1\AppData\Local\Temp\RSP90E1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+prototype2.cpp
+d:\users\administrator\desktop\new\other\prototype2.cpp(27) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\users\administrator\desktop\new\other\prototype2.cpp(27) : warning C4309: 'initializing' : truncation of constant value
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/prototype2.bsc"  .\Debug\prototype2.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+prototype2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: regwiz - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE86E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/regwiz.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\temp\regwiz\regwiz.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE86E.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE87F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/regwiz.pdb" /debug /machine:I386 /out:"Debug/regwiz.exe" /pdbtype:sept 
+.\Debug\regwiz.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE87F.tmp"
+<h3>Output Window</h3>
+Compiling...
+regwiz.cpp
+D:\temp\regwiz\regwiz.cpp(10) : warning C4172: returning address of local variable or temporary
+D:\temp\regwiz\regwiz.cpp(30) : warning C4508: 'WinMain' : function should return a value; 'void' return type assumed
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/regwiz.bsc"  .\Debug\regwiz.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+regwiz.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

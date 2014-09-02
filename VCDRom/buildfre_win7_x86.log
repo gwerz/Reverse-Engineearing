@@ -1,0 +1,5 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\temp\vcdrom\vcdrom directory for files to compile.
+oacr invalidate root:x86fre /autocleanqueue
+1>Compiling and Linking c:\temp\vcdrom\vcdrom *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f d:\winddk\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='

@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lsass - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP10.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/lsass.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\temp\lsass\lsass.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP10.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP11.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /base:"0x01000000" /entry:"main" /subsystem:windows /incremental:yes /pdb:"Debug/lsass.pdb" /debug /machine:I386 /out:"Debug/lsass.exe" /pdbtype:sept 
+.\Debug\lsass.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP11.tmp"
+<h3>Output Window</h3>
+Compiling...
+lsass.cpp
+D:\temp\lsass\lsass.cpp(38) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(43) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(44) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(45) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(46) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(47) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(49) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(52) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(53) : error C2065: 'PUNICODE_STRING' : undeclared identifier
+D:\temp\lsass\lsass.cpp(53) : error C2146: syntax error : missing ')' before identifier 'DestinationString'
+D:\temp\lsass\lsass.cpp(53) : warning C4229: anachronism used : modifiers on data are ignored
+D:\temp\lsass\lsass.cpp(53) : error C2182: 'RtlInitUnicodeString' : illegal use of type 'void'
+D:\temp\lsass\lsass.cpp(53) : error C2491: 'RtlInitUnicodeString' : definition of dllimport data not allowed
+D:\temp\lsass\lsass.cpp(53) : error C2059: syntax error : ')'
+D:\temp\lsass\lsass.cpp(56) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(57) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(58) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(59) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(60) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(61) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(64) : error C2143: syntax error : missing ';' before '__stdcall'
+D:\temp\lsass\lsass.cpp(64) : error C2501: 'NTSTATUS' : missing storage-class or type specifiers
+D:\temp\lsass\lsass.cpp(64) : warning C4273: 'NTSTATUS' : inconsistent dll linkage.  dllexport assumed.
+D:\temp\lsass\lsass.cpp(64) : error C2146: syntax error : missing ')' before identifier 'statu'
+D:\temp\lsass\lsass.cpp(64) : warning C4229: anachronism used : modifiers on data are ignored
+D:\temp\lsass\lsass.cpp(64) : error C2501: 'LsapNotifyInitializationFinish' : missing storage-class or type specifiers
+D:\temp\lsass\lsass.cpp(64) : error C2059: syntax error : ')'
+D:\temp\lsass\lsass.cpp(65) : error C2143: syntax error : missing ';' before '{'
+D:\temp\lsass\lsass.cpp(65) : error C2447: missing function header (old-style formal list?)
+D:\temp\lsass\lsass.cpp(73) : error C2071: 'LsaTopLevelExceptionHandler' : illegal storage class
+D:\temp\lsass\lsass.cpp(73) : error C2239: unexpected token '{' following declaration of 'LsaTopLevelExceptionHandler'
+D:\temp\lsass\lsass.cpp(82) : error C2146: syntax error : missing ';' before identifier 'statu'
+D:\temp\lsass\lsass.cpp(82) : error C2065: 'statu' : undeclared identifier
+D:\temp\lsass\lsass.cpp(82) : error C2664: 'NtSetInformationProcess' : cannot convert parameter 1 from 'const int' to 'void *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\temp\lsass\lsass.cpp(88) : error C2660: 'ServiceInit' : function does not take 0 parameters
+D:\temp\lsass\lsass.cpp(103) : error C2660: 'LsapDsInititalizeDsStateInfo' : function does not take 1 parameters
+Ö´ÐÐ cl.exe Ê±³ö´í.
+Creating command line "bscmake.exe /nologo /o"Debug/lsass.bsc"  .\Debug\lsass.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+lsass.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

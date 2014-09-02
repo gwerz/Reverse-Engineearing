@@ -1,0 +1,83 @@
+void FastStrnCopy(LPSTR DestinationString,LPSTR SourceString,DWORD size)
+{
+	LPSTR src=SourceString,dst=DestinationString;
+	if(SourceString == NULL) src=""; 
+
+	if(size == 0) return;
+
+	if(((LOBYTE(src) | LOBYTE(dst)) & 3) == 0 && size >=4 )//如果地址均以4对齐
+	{
+		while((~*(DWORD*)src & (*(DWORD*)src-0x01010101) & 0x80808080) == 0)
+		{//若src包含的4个char中不存在终止字符'\0'
+			size-=4;
+			*(DWORD*)dst=*(DWORD*)src;//快速复制
+			dst+=4;
+			src+=4;
+		}
+	}
+
+	if(size)//若内存不对齐 或者 内存对齐但size不是4的倍数，size必有剩余
+	{
+		while(--size)
+		{
+			TCHAR curchar=*src;
+			*dst++ = *src++;
+			if(curchar == '\0') return;
+		}
+		*dst='\0';
+	}
+}
+
+void FastStrCopy(LPSTR DestinationString,LPSTR SourceString)
+{
+	DWORD* src=(DWORD*)SourceString,dst=(DWORD*)DestinationString;
+	TCHAR curchar;
+	if(SourceString == NULL) src=""; 
+
+	if(((LOBYTE(src) | LOBYTE(dst)) & 3) == 0)//如果地址均以4对齐
+	{
+		while((~*src & (*src-0x01010101) & 0x80808080) == 0)
+		{//若src包含的4个char中不存在终止字符'\0'
+			*dst++ = *src++;//快速复制
+		}
+	}
+
+	while(*dst++ == *src++);
+}
+
+void FastStrCat(LPSTR DestinationString,LPSTR SourceString)
+{
+	LPSTR src=SourceString,dst=DestinationString;
+	TCHAR curchar;
+	if(SourceString == NULL) src="";
+
+	if((LOBYTE(src) & 3) == 0)////如果地址以4对齐
+	{
+		while((~*(DWORD*)src & (*(DWORD*)src-0x01010101) & 0x80808080) == 0)
+		{//若src包含的4个char中不存在终止字符'\0'
+			src+=4;
+		}
+	}
+
+	while(*src) 
+	{
+		src++;
+	}
+	FastStrCopy(src,dst);
+}
+
+TCHAR ToLower(TCHAR curchar)
+{
+	if(LOBYTE(curchar-'A') <= 'Z'-'A')
+		return curchar+'a'-'A';
+	return curchar;
+}
+
+void ToLowerAll(LPSTR ptr)
+{
+	for(LPSTR i=ptr;*i;i++)
+	{
+		if(LOBYTE(*i-'A') <= 'Z'-'A')
+			*i=ToLower(*i);
+	}
+}

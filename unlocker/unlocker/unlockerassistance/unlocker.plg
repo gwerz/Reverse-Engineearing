@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: unlocker - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/UnlockerAssistant.res" /i "\temp\unlocker" /d "NDEBUG" "D:\temp\unlocker\UnlockerAssistant.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AC6.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/unlocker.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\temp\unlocker\unlocker\unlocker.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AC6.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AC7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/unlocker.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\temp\unlocker\unlocker\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AC7.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AC8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib shlwapi.lib  comctl32.lib advapi32.lib   comdlg32.lib shell32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/unlocker.pdb" /machine:I386 /out:"Release/unlocker.exe" 
+.\Release\StdAfx.obj
+.\Release\unlocker.obj
+.\Release\UnlockerAssistant.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AC8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+unlocker.cpp
+D:\temp\unlocker\unlocker\unlocker.cpp(163) : warning C4101: 'Data' : unreferenced local variable
+D:\temp\unlocker\unlocker\unlocker.cpp(261) : warning C4700: local variable 'temp' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+unlocker.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: unlocker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/UnlockerAssistant.res" /i "D:\temp\unlocker\unlocker\\" /i "\temp\unlocker" /d "_DEBUG" "D:\temp\unlocker\UnlockerAssistant.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5C4F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/unlocker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\temp\unlocker\unlocker\unlocker.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5C4F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5C50.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/unlocker.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\temp\unlocker\unlocker\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5C50.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5C51.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib shlwapi.lib  comctl32.lib advapi32.lib   comdlg32.lib shell32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/unlocker.pdb" /debug /machine:I386 /out:"Debug/unlocker.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\unlocker.obj
+.\Debug\UnlockerAssistant.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5C51.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+unlocker.cpp
+D:\temp\unlocker\unlocker\unlocker.cpp(163) : warning C4101: 'Data' : unreferenced local variable
+D:\temp\unlocker\unlocker\unlocker.cpp(261) : warning C4700: local variable 'temp' used without having been initialized
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/unlocker.bsc"  .\Debug\StdAfx.sbr .\Debug\unlocker.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+unlocker.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

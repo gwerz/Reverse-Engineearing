@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DDKLaunchParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DebugConnectionString>vm://Windows XP Professional</DebugConnectionString>
+  <RemoteMachineHostname />
+  <PathOnTarget>%SystemRoot%\System32\Drivers\VCDRom.sys</PathOnTarget>
+  <StartMode>LegacyStartStop</StartMode>
+  <StartModeArg>VCDRom</StartModeArg>
+  <StartModeIntArg>0</StartModeIntArg>
+  <StopMode>LegacyStartStop</StopMode>
+  <StopModeArg>VCDRom</StopModeArg>
+  <StopModeIntArg>0</StopModeIntArg>
+  <KeepSessionWhenDriverUnloads>true</KeepSessionWhenDriverUnloads>
+  <AutoInstallPolicy>AutoInstallInteractive</AutoInstallPolicy>
+</DDKLaunchParams>

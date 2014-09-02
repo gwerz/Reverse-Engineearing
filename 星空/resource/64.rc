@@ -1,0 +1,7 @@
+STRINGTABLE
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+{
+1008, "内存不足，无法显示“帮助”。请退出部分程序，以增加可用内存数。"
+1009, "display.hlp"
+1010, "Screen Saver"
+}

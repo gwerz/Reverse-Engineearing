@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 专用地址转换器 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/专用地址转换器.res" /d "NDEBUG" /d "_AFXDLL" "D:\temp\专用地址转换器\专用地址转换器.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD36C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/专用地址转换器.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\temp\专用地址转换器\专用地址转换器.cpp"
+"D:\temp\专用地址转换器\专用地址转换器Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD36C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD36D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/专用地址转换器.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\temp\专用地址转换器\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD36D.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/专用地址转换器.pdb" /machine:I386 /out:"Release/专用地址转换器.exe"  ".\Release\StdAfx.obj" ".\Release\专用地址转换器.obj" ".\Release\专用地址转换器Dlg.obj" ".\Release\专用地址转换器.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+专用地址转换器.cpp
+专用地址转换器Dlg.cpp
+D:\temp\专用地址转换器\专用地址转换器Dlg.cpp(185) : warning C4035: 'translate1' : no return value
+D:\temp\专用地址转换器\专用地址转换器Dlg.cpp(264) : warning C4035: 'translate2' : no return value
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+专用地址转换器.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: 专用地址转换器 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/专用地址转换器.res" /d "_DEBUG" /d "_AFXDLL" "D:\temp\专用地址转换器\专用地址转换器.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE1C0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/专用地址转换器.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\temp\专用地址转换器\专用地址转换器.cpp"
+"D:\temp\专用地址转换器\专用地址转换器Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE1C0.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE1C1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/专用地址转换器.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\temp\专用地址转换器\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE1C1.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE1C2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/专用地址转换器.pdb" /debug /machine:I386 /out:"Debug/专用地址转换器.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\专用地址转换器.obj"
+".\Debug\专用地址转换器Dlg.obj"
+".\Debug\专用地址转换器.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE1C2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+专用地址转换器.cpp
+专用地址转换器Dlg.cpp
+D:\temp\专用地址转换器\专用地址转换器Dlg.cpp(185) : warning C4035: 'translate1' : no return value
+D:\temp\专用地址转换器\专用地址转换器Dlg.cpp(264) : warning C4035: 'translate2' : no return value
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/专用地址转换器.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\专用地址转换器.sbr" ".\Debug\专用地址转换器Dlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+专用地址转换器.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

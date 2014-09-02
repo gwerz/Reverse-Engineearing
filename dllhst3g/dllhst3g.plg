@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dllhst3g - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3AD2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/dllhst3g.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\temp\dllhst3g\dllhst3g.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3AD2.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3AD3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/dllhst3g.pdb" /debug /machine:I386 /out:"Debug/dllhst3g.exe" /pdbtype:sept 
+.\Debug\dllhst3g.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3AD3.tmp"
+<h3>Output Window</h3>
+Compiling...
+dllhst3g.cpp
+D:\temp\dllhst3g\dllhst3g.cpp(66) : error C2660: 'MultiByteToWideChar' : function does not take 2 parameters
+D:\temp\dllhst3g\dllhst3g.cpp(67) : error C2143: syntax error : missing ';' before '}'
+Ö´ÐÐ cl.exe Ê±³ö´í.
+Creating command line "bscmake.exe /nologo /o"Debug/dllhst3g.bsc"  .\Debug\dllhst3g.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+dllhst3g.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,102 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP             BITMAP  DISCARDABLE     "Bitmap_1.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON               ICON    DISCARDABLE     "Icon_1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING1             "War3.exe"
+    IDS_STRING2             "光盘驱动器错误。"
+    IDS_STRING3             "请核实您的冰封王座光盘已在光盘驱动器中，然后点击‘重试’。"
+	IDS_STRING4             "冰封王座无法定位您的光盘驱动器。\n请确认您的冰封王座光盘已在光盘驱动器中，然后点击‘重试’。"
+	IDS_STRING5             "冰封王座无法检测到您的光盘驱动器。\n请确认您的冰封王座光盘已在光盘驱动器中，然后点击‘重试’。"
+	IDS_STRING6             "请确认您的冰封王座光盘已在光盘驱动器中，然后点击‘重试’。"
+	IDS_STRING7             "Frozen Throne.exe"
+	IDS_STRING8             "冰封王座无法运行。\n请确认您的冰封王座光盘已在光盘驱动器中，然后点击‘重试’。"
+	IDS_STRING9             "冰封王座无法找到War3.exe。\n请确认游戏已正确安装，以及冰封王座光盘已在光盘驱动器中，然后重试。\n"
+	IDS_STRING10            "你需要这台PC上的管理员权限才能运行冰封王座。请检查您的设置，然后点击‘重试’。"
+	IDS_STRING11            "Copyright (c) 2003 Blizzard Entertainment. All Rights Reserved."
+	IDS_STRING12            "魔兽争霸资料片：冰封王座已经运行"
+	IDS_STRING13            "魔兽争霸资料片：冰封王座"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

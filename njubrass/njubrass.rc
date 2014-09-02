@@ -1,0 +1,270 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\njubrass.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\128.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 184, 89
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 njubrass"
+FONT 12, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "njubrass",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Designed by njunic       Web: http://nic.nju.edu.cn   Tel:  025-83594793           Email:bras@nju.edu.cn",IDC_STATIC,40,25,112,36
+    DEFPUSHBUTTON   "确定",IDOK,156,68,21,14,WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,17,62,150,1
+    LTEXT           "Copyright 2007 njunic All rights reserved",IDC_STATIC,41,64,93,16
+END
+
+IDD_NJUBRASS_DIALOG DIALOGEX 0, 0, 335, 157
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "njubrass"
+FONT 12, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_UserName,208,17,111,12,ES_AUTOHSCROLL
+    LTEXT           "用户名:",IDC_STATIC,172,18,29,8
+    LTEXT           "密码:",IDC_STATIC,171,33,29,8
+    EDITTEXT        IDC_PassWord,208,32,111,12,ES_AUTOHSCROLL
+    GROUPBOX        "明文",IDC_STATIC,169,7,159,42
+    EDITTEXT        IDC_UserName2,208,62,111,12,ES_AUTOHSCROLL
+    LTEXT           "用户名:",IDC_STATIC,172,63,29,8
+    LTEXT           "密码:",IDC_STATIC,171,78,29,8
+    EDITTEXT        IDC_PassWord2,208,77,111,12,ES_AUTOHSCROLL
+    GROUPBOX        "密文",IDC_STATIC,169,52,159,42
+    PUSHBUTTON      "加密",IDC_Encrypt,187,95,21,14
+    PUSHBUTTON      "解密",IDC_Decrypt,253,95,21,14
+    CONTROL         129,IDC_PIC,"Static",SS_BITMAP,7,7,157,67,WS_EX_TRANSPARENT
+    LTEXT           "Username:",IDC_LabelUsername,7,76,37,8
+    LTEXT           "Password:",IDC_LabelPassword,7,90,37,8
+    EDITTEXT        IDC_OriUsername,50,76,114,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OriPassword,50,89,114,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "Save username && password",IDC_CHECK_save,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,102,108,10
+    CONTROL         "Off-Canmpus",IDC_CHECK_off,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,115,103,60,10
+    DEFPUSHBUTTON   "Connect(&C)",IDC_Connect,7,122,85,14
+    PUSHBUTTON      "Exit(&E)",IDC_Exit,92,122,33,14
+    PUSHBUTTON      "Help(&H)",IDC_Help,125,122,33,14
+    PUSHBUTTON      "About(&A)",IDS_ABOUTBOX,158,122,37,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,117,189,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,0,140,196,1
+    LTEXT           "Designed by njunic       Web: http://nic.nju.edu.cn   Tel:  025-83594793           Email:bras@nju.edu.cn",IDC_interpretation,7,142,112,8
+END
+
+IDD_MESSAGE DIALOG 0, 0, 133, 46
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "message"
+FONT 10, "System"
+BEGIN
+    LTEXT           "Bras余额:",IDC_STATIC,8,9,35,8
+END
+
+IDD_NJUMail DIALOG 0, 0, 208, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,74,50,50,14
+    GROUPBOX        "NJUMail",IDC_STATIC,7,7,194,42
+    CONTROL         "自动检测未读邮件数",IDC_AutoCheck,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,19,88,10
+    LTEXT           "",IDC_Mail,98,18,57,12,WS_BORDER
+    LTEXT           "&&nju.edu.cn",IDC_STATIC,158,19,39,8
+    LTEXT           "时间间隔:",IDC_STATIC,10,33,35,8
+    LTEXT           "",IDC_Minute,50,32,106,13,WS_BORDER
+    LTEXT           "分钟",IDC_STATIC,159,33,36,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "njubrass Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "njubrass"
+            VALUE "LegalCopyright", "版权所有 (C) 2012"
+            VALUE "OriginalFilename", "njubrass.EXE"
+            VALUE "ProductName", "njubrass 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_NJUBRASS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 126
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_NJUMail, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_139          BITMAP                  "res\\139.bmp"
+IDB_BITMAP_133          BITMAP                  "res\\133.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 njubrass(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\njubrass.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

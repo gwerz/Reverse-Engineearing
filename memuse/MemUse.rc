@@ -1,0 +1,178 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MainIcon            ICON                    "101.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,0
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "Gennady Feldman"
+            VALUE "FileDescription", "MemUse - memory and swap file monitor"
+            VALUE "FileVersion", "0, 4, 0, 0"
+            VALUE "InternalName", "MemUse"
+            VALUE "LegalCopyright", "Copyright (C) Gennady Feldman 1999-2005"
+            VALUE "OriginalFilename", "MemUse.exe"
+            VALUE "ProductName", "MemUse"
+            VALUE "ProductVersion", "0, 4, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+MainDlg DIALOGEX 30, 20, 157, 52
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "MemUse v0.4"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "Physical",-1,41,2,54,10
+    CTEXT           "Virtual",-1,98,2,54,10
+    RTEXT           "Total:",-1,4,12,34,10
+    RTEXT           "Used:",-1,4,24,34,10
+    RTEXT           "Available:",-1,4,36,34,10
+    RTEXT           "",TotalPhysical,41,12,54,10,SS_SUNKEN
+    RTEXT           "",TotalVirtual,98,12,54,10,SS_SUNKEN
+    RTEXT           "",UsedPhysical,41,24,54,10,SS_SUNKEN
+    RTEXT           "",UsedVirtual,98,24,54,10,SS_SUNKEN
+    RTEXT           "",AvailablePhysical,41,36,54,10,SS_SUNKEN
+    RTEXT           "",AvailableVirtual,98,36,54,10,SS_SUNKEN
+END
+
+AboutDlg DIALOGEX 0, 0, 200, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MemUse"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "MemUse 0.4",1804,36,7,160,10
+    ICON            "",IDI_MainIcon,7,7,20,20
+    LTEXT           "Copyright (c) 1999-2006 Gennady Feldman",-1,36,21,142,12
+    LTEXT           "Website:",-1,10,40,30,13
+    LTEXT           "http://www.gena01.com/memuse/",1801,40,40,126,13
+    LTEXT           "Forum:",-1,10,50,30,13
+    LTEXT           "http://www.gena01.com/forum/",1802,40,50,126,13
+    LTEXT           "E-mail:",-1,10,60,30,13
+    LTEXT           "mailto:memuse@gena01.com",1803,40,60,126,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    MainDlg, DIALOG
+    BEGIN
+    END
+
+    AboutDlg, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

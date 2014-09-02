@@ -1,0 +1,25 @@
+AltStreamDump v1.05
+Copyright (c) 2011 - 2012 Nir Sofer
+Web Site: http://www.nirsoft.net
+
+This utility lists all NTFS alternate streams found in the current
+directory. You can also scan other folders by using -f and -d
+parameters:
+
+-f [Folder Path]
+
+Specified the folder that you wish to scan.
+
+-d [Subfolders Depth]
+
+Specified the depth of subfolders to scan. (0 = none, 1 = first level of subfolders, and so on)
+
+Example:
+
+AltStreamDump.exe -f "c:\myfolder" -d 3
+
+
+
+
+
+

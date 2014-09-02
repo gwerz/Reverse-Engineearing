@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tracert - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7ADA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/tracert.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\temp\tracert-xp\tracert.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7ADA.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7ADB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/tracert.pdb" /debug /machine:I386 /out:"Debug/tracert.exe" /pdbtype:sept 
+".\Debug\tracert.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7ADB.tmp"
+<h3>Output Window</h3>
+Compiling...
+tracert.cpp
+d:\temp\tracert-xp\tracert.cpp(41) : error C2065: 'getnameinfo' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(41) : error C2065: 'NI_NAMEREQD' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(43) : error C2065: '_fileno' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(43) : error C2065: 'stdout' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(46) : error C2065: 'NI_NUMERICHOST' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(64) : error C2065: 'in6_addr' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(64) : error C2065: 'paddress' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(64) : error C2062: type 'char' unexpected
+d:\temp\tracert-xp\tracert.cpp(65) : error C2143: syntax error : missing ';' before '{'
+d:\temp\tracert-xp\tracert.cpp(65) : error C2447: missing function header (old-style formal list?)
+d:\temp\tracert-xp\tracert.cpp(79) : error C2065: 'ADDRINFO' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(79) : error C2065: 'ppResult' : undeclared identifier
+d:\temp\tracert-xp\tracert.cpp(79) : error C2275: 'PCSTR' : illegal use of this type as an expression
+        d:\vc98\include\winnt.h(167) : see declaration of 'PCSTR'
+d:\temp\tracert-xp\tracert.cpp(79) : error C2146: syntax error : missing ')' before identifier 'pNodeName'
+d:\temp\tracert-xp\tracert.cpp(79) : warning C4229: anachronism used : modifiers on data are ignored
+d:\temp\tracert-xp\tracert.cpp(79) : error C2078: too many initializers
+d:\temp\tracert-xp\tracert.cpp(79) : error C2275: 'PCSTR' : illegal use of this type as an expression
+        d:\vc98\include\winnt.h(167) : see declaration of 'PCSTR'
+d:\temp\tracert-xp\tracert.cpp(79) : error C2059: syntax error : ')'
+d:\temp\tracert-xp\tracert.cpp(80) : error C2143: syntax error : missing ';' before '{'
+d:\temp\tracert-xp\tracert.cpp(80) : error C2447: missing function header (old-style formal list?)
+d:\temp\tracert-xp\tracert.cpp(93) : error C2632: 'long' followed by 'char' is illegal
+Ö´ÐÐ cl.exe Ê±³ö´í.
+Creating command line "bscmake.exe /nologo /o"Debug/tracert.bsc"  ".\Debug\tracert.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+tracert.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

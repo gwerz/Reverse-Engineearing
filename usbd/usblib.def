@@ -1,0 +1,20 @@
+LIBRARY usbd.sys
+EXPORTS
+	USBD_CreateConfigurationRequestEx	@1
+	USBD_ParseConfigurationDescriptorEx	@2
+	USBD_ParseDescriptors				@3	
+	DllInitialize						PRIVATE  
+	DllUnload							PRIVATE		
+	USBD_CalculateUsbBandwidth			@6
+	USBD_CreateConfigurationRequest		@7
+	_USBD_CreateConfigurationRequestEx=USBD_CreateConfigurationRequestEx @8
+	USBD_GetInterfaceLength				@9
+	USBD_GetPdoRegistryParameter		@10
+	USBD_GetRegistryKeyValue			@11
+	USBD_GetUSBDIVersion				@12
+	USBD_ParseConfigurationDescriptor	@13
+	_USBD_ParseConfigurationDescriptorEx=USBD_ParseConfigurationDescriptorEx @14
+	_USBD_ParseDescriptors=USBD_ParseDescriptors @15
+	USBD_QueryBusTime					@16	
+	USBD_RegisterHcFilter				@17	
+	USBD_ValidateConfigurationDescriptor @18

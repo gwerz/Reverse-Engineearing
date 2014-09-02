@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ttplayer.res" /d "NDEBUG" "C:\Users\Administrator\Desktop\test\Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ\ttplayer.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP98CF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\test\Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ\removeadd.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP98CF.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP98D0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.pdb" /machine:I386 /out:"Release/Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.exe" 
+".\Release\removeadd.obj"
+".\Release\ttplayer.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP98D0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+removeadd.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ttplayer.res" /d "_DEBUG" "C:\Users\Administrator\Desktop\test\Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ\ttplayer.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP9AD4.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\test\Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ\removeadd.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP9AD4.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP9AD5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.pdb" /debug /machine:I386 /out:"Debug/Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.exe" /pdbtype:sept 
+".\Debug\removeadd.obj"
+".\Debug\ttplayer.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP9AD5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+removeadd.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.bsc"  ".\Debug\removeadd.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Ç§Ç§¾²ÌýÆÁ±Î¹ã¸æ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

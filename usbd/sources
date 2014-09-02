@@ -1,0 +1,7 @@
+TARGETNAME=usbd
+TARGETTYPE=EXPORT_DRIVER
+
+SOURCES=stdafx.cpp \
+	usbd.cpp
+
+DLLDEF=usblib.def

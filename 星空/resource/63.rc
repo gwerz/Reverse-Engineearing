@@ -1,0 +1,7 @@
+STRINGTABLE
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+{
+1001, "control.ini"
+1002, "ScreenSaver"
+1007, "Screen Saver.Stars"
+}

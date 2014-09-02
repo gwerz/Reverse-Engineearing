@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "finger", "finger.vcxproj", "{20B1DB2B-7C61-AB0F-4EBA-574E217B2D5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B1DB2B-7C61-AB0F-4EBA-574E217B2D5F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20B1DB2B-7C61-AB0F-4EBA-574E217B2D5F}.Debug|Win32.Build.0 = Debug|Win32
+		{20B1DB2B-7C61-AB0F-4EBA-574E217B2D5F}.Release|Win32.ActiveCfg = Release|Win32
+		{20B1DB2B-7C61-AB0F-4EBA-574E217B2D5F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

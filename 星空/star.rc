@@ -1,0 +1,82 @@
+2003 DIALOGEX 8, 16, 205, 91
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "飞越星空设置"
+LANGUAGE LANG_CHINESE, 0x2
+FONT 9, "宋体", FW_NORMAL, FALSE, 134
+{
+   CONTROL "确定", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 158, 8, 40, 14 
+   CONTROL "取消", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 158, 26, 40, 14 
+   CONTROL "飞行速度(&W)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 4, 4, 150, 36 
+   CONTROL "慢", 104, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 16, 32, 14 
+   CONTROL "快", 105, STATIC, SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_GROUP, 114, 16, 32, 14 
+   CONTROL "", 100, SCROLLBAR, SBS_HORZ | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 8, 24, 141, 12 
+   CONTROL "星空密度(&D)", -1, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 4, 43, 150, 30 
+   CONTROL "流星个数 (10-200)", 106, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 59, 92, 9 
+   CONTROL "", 101, EDIT, ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 106, 54, 31, 12 
+   CONTROL "", 102, "msctls_updown32", UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 129, 54, 8, 12 
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_CHINESE, 0x2
+{
+1, 	"飞越星空"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_CHINESE, 0x2
+{
+100, 	"流星"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_CHINESE, 0x2
+{
+1001, 	"control.ini"
+1002, 	"ScreenSaver"
+1007, 	"Screen Saver.Stars"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_CHINESE, 0x2
+{
+1008, 	"内存不足，无法显示“帮助”。请退出部分程序，以增加可用内存数。"
+1009, 	"display.hlp"
+1010, 	"Screen Saver"
+}
+
+100 ICON "Icon_1.ico"
+
+
+1 VERSIONINFO
+FILEVERSION 5,1,2600,5512
+PRODUCTVERSION 5,1,2600,5512
+FILEOS 0x40004
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "080404B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "Starfield Screen Saver"
+		VALUE "FileVersion", "5.1.2600.5512 (xpsp.080413-2105)"
+		VALUE "InternalName", "ssstars"
+		VALUE "LegalCopyright", "(C) Microsoft Corporation. All rights reserved."
+		VALUE "OriginalFilename", "ssstars"
+		VALUE "ProductName", "Microsoft(R) Windows(R) Operating System"
+		VALUE "ProductVersion", "5.1.2600.5512"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0804 0x04B0
+}
+}
+
+1 24 "Data_1.bin"
+

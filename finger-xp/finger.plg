@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: finger - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib msvcrt.lib /nologo /entry:"start" /subsystem:console /incremental:yes /pdb:"Debug/finger.pdb" /debug /machine:I386 /out:"Debug/finger.exe" /pdbtype:sept  .\Debug\finger.obj .\MsWSock.Lib "
+<h3>Output Window</h3>
+Linking...
+LINK : fatal error LNK1207: incompatible PDB format in "C:\Users\Administrator\Desktop\virus\finger\Debug\finger.pdb"; delete and rebuild
+执行 link.exe 时出错.
+Creating command line "bscmake.exe /nologo /o"Debug/finger.bsc"  .\Debug\finger.sbr"
+Creating browse info file...
+BSCMAKE: error BK1510 : corrupt .SBR file '.\Debug\finger.sbr'
+执行 bscmake.exe 时出错.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+finger.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
